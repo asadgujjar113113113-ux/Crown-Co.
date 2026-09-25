@@ -1,115 +1,235 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Crown & Co. | Watches, Perfumes & Fashion</title>
-<meta name="description" content="Crown & Co. - Watches, perfumes, dressing, shoes and fashion accessories. Order on WhatsApp.">
-<style>
-*{box-sizing:border-box}body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#faf8f4;color:#171717}
-header{background:#111;color:#fff;position:sticky;top:0;z-index:10}
-.nav{max-width:1100px;margin:auto;padding:16px 20px;display:flex;align-items:center;justify-content:space-between}
-.logo{font-size:24px;font-weight:800;letter-spacing:1px}.logo span{font-size:12px;display:block;color:#c9a85d;letter-spacing:3px}
-.nav a{color:#fff;text-decoration:none;margin-left:18px;font-size:14px}
-.hero{max-width:1100px;margin:auto;padding:70px 20px 55px;text-align:center}
-.hero h1{font-size:48px;margin:0 0 12px}.hero p{font-size:18px;color:#666;margin-bottom:28px}
-.btn{display:inline-block;background:#111;color:#fff;text-decoration:none;padding:14px 24px;border-radius:30px;font-weight:700}
-.categories{display:flex;gap:10px;flex-wrap:wrap;justify-content:center;margin:20px auto 45px;max-width:900px}
-.categories button{border:1px solid #ddd;background:#fff;padding:11px 17px;border-radius:25px;cursor:pointer}
-.section{max-width:1100px;margin:auto;padding:10px 20px 60px}.section h2{text-align:center;font-size:30px}
-.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
-.card{background:#fff;border:1px solid #eee;border-radius:18px;overflow:hidden;box-shadow:0 8px 25px #0000000b}
-.pic{height:230px;background:#eee;display:flex;align-items:center;justify-content:center;color:#999;font-weight:700}
-.card-body{padding:17px}.card h3{margin:0 0 7px}.price{font-weight:800;font-size:18px;margin:8px 0 14px}
-.whatsapp{display:block;text-align:center;background:#159447;color:white;text-decoration:none;padding:12px;border-radius:10px;font-weight:700}
-.about{background:#111;color:#fff;border-radius:22px;padding:40px;text-align:center;margin-bottom:50px}
-footer{text-align:center;padding:28px;background:#111;color:#aaa}
-@media(max-width:750px){.grid{grid-template-columns:repeat(2,1fr)}.hero h1{font-size:38px}}
-@media(max-width:500px){.grid{grid-template-columns:1fr}.nav a{display:none}.hero{padding-top:50px}.pic{height:250px}}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CROWN & CO. BY ASAD | VIP & Luxury Watches</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #0f172a;
+            color: #f8fafc;
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(135deg, #1e293b, #0f172a);
+            padding: 40px 20px;
+            text-align: center;
+            border-bottom: 2px solid #334155;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+        }
+        header h1 {
+            font-size: 2.2rem;
+            letter-spacing: 2px;
+            color: #f59e0b;
+            text-transform: uppercase;
+            margin-bottom: 8px;
+        }
+        header p {
+            color: #94a3b8;
+            font-size: 1rem;
+        }
+        .whatsapp-btn {
+            display: inline-block;
+            margin-top: 15px;
+            background-color: #25d366;
+            color: #fff;
+            padding: 10px 24px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.95rem;
+            box-shadow: 0 4px 12px rgba(37, 211, 102, 0.3);
+            transition: all 0.3s ease;
+        }
+        .whatsapp-btn:hover {
+            background-color: #1eb954;
+            transform: translateY(-2px);
+        }
+        .container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        .section-title {
+            text-align: center;
+            font-size: 1.8rem;
+            margin-bottom: 30px;
+            color: #f1f5f9;
+            position: relative;
+        }
+        .section-title::after {
+            content: '';
+            width: 60px;
+            height: 3px;
+            background: #f59e0b;
+            display: block;
+            margin: 8px auto 0;
+            border-radius: 2px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 25px;
+        }
+        .card {
+            background: #1e293b;
+            border-radius: 16px;
+            overflow: hidden;
+            border: 1px solid #334155;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            text-align: center;
+        }
+        .card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 10px 25px rgba(245, 158, 11, 0.15);
+            border-color: #f59e0b;
+        }
+        .card img {
+            width: 100%;
+            height: 260px;
+            object-fit: contain;
+            background-color: #ffffff;
+            border-radius: 12px;
+            padding: 10px;
+        }
+        .card h3 {
+            font-size: 1.1rem;
+            margin: 15px 0 8px;
+            color: #f8fafc;
+        }
+        .price-badge {
+            background: linear-gradient(135deg, #f59e0b, #d97706);
+            color: #fff;
+            font-weight: 700;
+            font-size: 1.1rem;
+            padding: 6px 18px;
+            border-radius: 20px;
+            margin-top: 5px;
+        }
+        .buy-now {
+            margin-top: 15px;
+            width: 100%;
+            padding: 10px;
+            background-color: #3b82f6;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            text-align: center;
+            transition: background 0.2s;
+        }
+        .buy-now:hover {
+            background-color: #2563eb;
+        }
+        footer {
+            text-align: center;
+            padding: 30px;
+            border-top: 1px solid #334155;
+            color: #64748b;
+            font-size: 0.9rem;
+            margin-top: 50px;
+        }
+    </style>
 </head>
 <body>
-<header>
-  <div class="nav">
-    <div class="logo">CROWN & CO.<span>STYLE • ELEGANCE</span></div>
-    <nav><a href="#shop">Shop</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
-  </div>
-</header>
 
-<section class="hero">
-  <h1>Elevate Your Style</h1>
-  <p>Watches, perfumes, dressing, shoes & fashion accessories.</p>
-  <a class="btn" href="#shop">Explore Collection</a>
-</section>
+    <header>
+        <h1>CROWN & CO. BY ASAD</h1>
+        <p>VIP & Luxury Watches Collection | Online Store</p>
+        <a href="https://wa.me/971553641245" class="whatsapp-btn" target="_blank">📱 Order on WhatsApp: 0553641245</a>
+    </header>
 
-<div class="categories">
-  <button onclick="filterProducts('all')">All</button>
-  <button onclick="filterProducts('Watches')">Watches</button>
-  <button onclick="filterProducts('Perfumes')">Perfumes</button>
-  <button onclick="filterProducts('Dressing')">Dressing</button>
-  <button onclick="filterProducts('Shoes')">Shoes</button>
-  <button onclick="filterProducts('Accessories')">Accessories</button>
-</div>
+    <div class="container">
+        <h2 class="section-title">New Arrivals - Special Offer (90 AED)</h2>
+        <div class="grid">
 
-<section class="section" id="shop">
-  <h2>Our Collection</h2>
-  <div class="grid" id="products"></div>
-</section>
+            <div class="card">
+                <img src="IMG-20260925-WA0006.jpg" alt="Watch Model 1">
+                <h3>VIP Watch Model #01</h3>
+                <div class="price-badge">AED 90</div>
+                <a href="https://wa.me/971553641245?text=I%20want%20to%20order%20Watch%20Model%20%2301%20for%2090%20AED" class="buy-now" target="_blank">Order Now</a>
+            </div>
+    
+            <div class="card">
+                <img src="IMG-20260925-WA0003.jpg" alt="Watch Model 2">
+                <h3>VIP Watch Model #02</h3>
+                <div class="price-badge">AED 90</div>
+                <a href="https://wa.me/971553641245?text=I%20want%20to%20order%20Watch%20Model%20%2302%20for%2090%20AED" class="buy-now" target="_blank">Order Now</a>
+            </div>
+    
+            <div class="card">
+                <img src="IMG-20260925-WA0005.jpg" alt="Watch Model 3">
+                <h3>VIP Watch Model #03</h3>
+                <div class="price-badge">AED 90</div>
+                <a href="https://wa.me/971553641245?text=I%20want%20to%20order%20Watch%20Model%20%2303%20for%2090%20AED" class="buy-now" target="_blank">Order Now</a>
+            </div>
+    
+            <div class="card">
+                <img src="IMG-20260925-WA0002.jpg" alt="Watch Model 4">
+                <h3>VIP Watch Model #04</h3>
+                <div class="price-badge">AED 90</div>
+                <a href="https://wa.me/971553641245?text=I%20want%20to%20order%20Watch%20Model%20%2304%20for%2090%20AED" class="buy-now" target="_blank">Order Now</a>
+            </div>
+    
+            <div class="card">
+                <img src="IMG-20260925-WA0004.jpg" alt="Watch Model 5">
+                <h3>VIP Watch Model #05</h3>
+                <div class="price-badge">AED 90</div>
+                <a href="https://wa.me/971553641245?text=I%20want%20to%20order%20Watch%20Model%20%2305%20for%2090%20AED" class="buy-now" target="_blank">Order Now</a>
+            </div>
+    
+            <div class="card">
+                <img src="IMG-20260925-WA0001.jpg" alt="Watch Model 6">
+                <h3>VIP Watch Model #06</h3>
+                <div class="price-badge">AED 90</div>
+                <a href="https://wa.me/971553641245?text=I%20want%20to%20order%20Watch%20Model%20%2306%20for%2090%20AED" class="buy-now" target="_blank">Order Now</a>
+            </div>
+    
+            <div class="card">
+                <img src="IMG-20260924-WA0607.jpg" alt="Watch Model 7">
+                <h3>VIP Watch Model #07</h3>
+                <div class="price-badge">AED 90</div>
+                <a href="https://wa.me/971553641245?text=I%20want%20to%20order%20Watch%20Model%20%2307%20for%2090%20AED" class="buy-now" target="_blank">Order Now</a>
+            </div>
+    
+            <div class="card">
+                <img src="IMG-20260924-WA0604.jpg" alt="Watch Model 8">
+                <h3>VIP Watch Model #08</h3>
+                <div class="price-badge">AED 90</div>
+                <a href="https://wa.me/971553641245?text=I%20want%20to%20order%20Watch%20Model%20%2308%20for%2090%20AED" class="buy-now" target="_blank">Order Now</a>
+            </div>
+    
+            <div class="card">
+                <img src="IMG-20260924-WA0606.jpg" alt="Watch Model 9">
+                <h3>VIP Watch Model #09</h3>
+                <div class="price-badge">AED 90</div>
+                <a href="https://wa.me/971553641245?text=I%20want%20to%20order%20Watch%20Model%20%2309%20for%2090%20AED" class="buy-now" target="_blank">Order Now</a>
+            </div>
+    
+            <div class="card">
+                <img src="IMG-20260924-WA0608.jpg" alt="Watch Model 10">
+                <h3>VIP Watch Model #10</h3>
+                <div class="price-badge">AED 90</div>
+                <a href="https://wa.me/971553641245?text=I%20want%20to%20order%20Watch%20Model%20%2310%20for%2090%20AED" class="buy-now" target="_blank">Order Now</a>
+            </div>
+    
+        </div>
+    </div>
 
-<section class="section" id="about">
-  <div class="about">
-    <h2>Crown & Co.</h2>
-    <p>Premium style, everyday confidence. Browse our collection and order directly through WhatsApp.</p>
-  </div>
-</section>
+    <footer>
+        <p>&copy; CROWN & CO. BY ASAD. All Rights Reserved.</p>
+    </footer>
 
-<section class="section" id="contact">
-  <div class="about">
-    <h2>Order on WhatsApp</h2>
-    <p>For orders and enquiries, message us directly.</p>
-    <a class="btn" target="_blank" href="https://wa.me/971553641245?text=Hello%20Crown%20%26%20Co.%2C%20I%20want%20to%20place%20an%20order.">WhatsApp: 0553641245</a>
-  </div>
-</section>
-
-<footer>© 2026 Crown & Co. All rights reserved.</footer>
-
-<script>
-const WHATSAPP = "971553641245";
-
-/* بعد میں یہاں اپنے products add کریں:
-{
-  category:"Watches",
-  name:"Your Watch Name",
-  price:"AED 199",
-  image:"images/watch1.jpg"
-}
-*/
-const products = [
-  {category:"Watches",name:"Add Your Watch",price:"AED 0",image:""},
-  {category:"Perfumes",name:"Add Your Perfume",price:"AED 0",image:""},
-  {category:"Dressing",name:"Add Your Outfit",price:"AED 0",image:""},
-  {category:"Shoes",name:"Add Your Shoes",price:"AED 0",image:""},
-  {category:"Accessories",name:"Add Your Accessory",price:"AED 0",image:""}
-];
-
-function orderLink(p){
-  const msg=`Hello Crown & Co., I want to order: ${p.name} (${p.price}).`;
-  return `https://wa.me/${WHATSAPP}?text=${encodeURIComponent(msg)}`;
-}
-function render(list){
-  document.getElementById("products").innerHTML=list.map(p=>`
-    <article class="card">
-      <div class="pic">${p.image ? `<img src="${p.image}" alt="${p.name}" style="width:100%;height:100%;object-fit:cover">` : "PRODUCT IMAGE"}</div>
-      <div class="card-body">
-        <h3>${p.name}</h3><div class="price">${p.price}</div>
-        <a class="whatsapp" target="_blank" href="${orderLink(p)}">Order on WhatsApp</a>
-      </div>
-    </article>`).join("");
-}
-function filterProducts(cat){
-  render(cat==="all"?products:products.filter(p=>p.category===cat));
-}
-render(products);
-</script>
 </body>
 </html>
