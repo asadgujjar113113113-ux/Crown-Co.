@@ -1,0 +1,92 @@
+[
+  {
+    "id": "watch_01",
+    "name": "Amora Classic White Dial - Black Leather Strap",
+    "category": "Watches",
+    "brand": "CROWN & CO",
+    "price": 90,
+    "image": "IMG-20260925-WA0006.jpg",
+    "description": "Elegant Amora quartz watch featuring a clean white dial with Arabic numerals and a black leather strap."
+  },
+  {
+    "id": "watch_02",
+    "name": "Amora Classic White Dial - Brown Leather Strap",
+    "category": "Watches",
+    "brand": "CROWN & CO",
+    "price": 90,
+    "image": "IMG-20260925-WA0003.jpg",
+    "description": "Stylish Amora quartz watch with a white dial, silver case, and a textured brown leather strap."
+  },
+  {
+    "id": "watch_03",
+    "name": "Crown Chrono Sport - Grey Silicone Strap",
+    "category": "Watches",
+    "brand": "CROWN & CO",
+    "price": 90,
+    "image": "IMG-20260925-WA0005.jpg",
+    "description": "Modern sports chronograph watch with silver bezel and grey silicone strap."
+  },
+  {
+    "id": "watch_04",
+    "name": "Curren GMT Chronometer - Black & Blue",
+    "category": "Watches",
+    "brand": "CROWN & CO",
+    "price": 90,
+    "image": "IMG-20260925-WA0002.jpg",
+    "description": "Rugged GMT chronometer featuring a black sub-dial with blue inner ring accent and black silicone strap."
+  },
+  {
+    "id": "watch_05",
+    "name": "Crown Chrono Sport - Light Grey Dial",
+    "category": "Watches",
+    "brand": "CROWN & CO",
+    "price": 90,
+    "image": "IMG-20260925-WA0004.jpg",
+    "description": "Premium chronograph sports watch with light grey sub-dials and matching grey silicone strap."
+  },
+  {
+    "id": "watch_06",
+    "name": "Crown Executive Rose Gold - Black Dial",
+    "category": "Watches",
+    "brand": "CROWN & CO",
+    "price": 90,
+    "image": "IMG-20260925-WA0001.jpg",
+    "description": "Luxury rose gold case chronograph watch with black dial and brown silicone strap."
+  },
+  {
+    "id": "watch_07",
+    "name": "Rolex Datejust Style - Red Ombre Dial",
+    "category": "Watches",
+    "brand": "Rolex Style",
+    "price": 90,
+    "image": "IMG-20260924-WA0607.jpg",
+    "description": "Classic Datejust design watch with fluted bezel, black metal bracelet, and red gradient dial with stone markers."
+  },
+  {
+    "id": "watch_08",
+    "name": "Rolex Datejust Style - Purple Ombre Dial",
+    "category": "Watches",
+    "brand": "Rolex Style",
+    "price": 90,
+    "image": "IMG-20260924-WA0608.jpg",
+    "description": "Sophisticated Datejust design watch with silver jubilee bracelet, fluted bezel, and purple gradient dial."
+  },
+  {
+    "id": "watch_09",
+    "name": "Rolex Datejust Style - Blue Dial Arabic Index",
+    "category": "Watches",
+    "brand": "Rolex Style",
+    "price": 90,
+    "image": "IMG-20260924-WA0609.jpg",
+    "description": "Iconic Datejust design watch with silver jubilee bracelet, fluted bezel, and blue dial featuring Arabic numeral hour markers."
+  },
+  {
+    "id": "watch_10",
+    "name": "Rolex Datejust Style - Salmon Dial Arabic Index",
+    "category": "Watches",
+    "brand": "Rolex Style",
+    "price": 90,
+    "image": "IMG-20260924-WA0610.jpg",
+    "description": "Luxury Datejust design watch with silver jubilee bracelet, fluted bezel, and salmon/copper dial with Arabic numeral hour markers."
+  }
+]
